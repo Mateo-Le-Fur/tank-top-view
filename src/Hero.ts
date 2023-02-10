@@ -21,6 +21,12 @@ class Hero extends Sprite {
 
   private _spawnProtect: boolean;
 
+  private _detectionRadius: number;
+
+  get detectionRadius() {
+    return this._detectionRadius;
+  }
+
   get life() {
     return this._life;
   }
@@ -42,6 +48,8 @@ class Hero extends Sprite {
     this._lastPosX = 0;
     this._lastPosY = 0;
     this._spawnProtect = false;
+
+    this._detectionRadius = 500;
 
     window.addEventListener('keydown', this.keysPressed.bind(this), false);
     window.addEventListener('keyup', this.keysReleased.bind(this), false);
@@ -134,9 +142,12 @@ class Hero extends Sprite {
     if (ratio <= 0) ratio = 0;
 
     ctx.save();
+
+    // Barre de vie
     ctx.strokeRect(this._x, this._y - 15, this._w, this._h / 3);
     ctx.fillStyle = '#32CD32';
     ctx.fillRect(this._x, this._y - 15, this._w * ratio, this._h / 3);
+
     ctx.translate(this._x + this._w / 2, this._y + this._h / 2);
     ctx.rotate(this._angle * (Math.PI / 180));
     ctx.translate(-this._x - this._w / 2, -this._y - this._h / 2);

@@ -126,7 +126,7 @@ class Game {
     if (this._enemies.length) {
       this._enemies.forEach((enemy) => {
         // l'ennemi se déplace
-        enemy.update(this._hero.x, this._hero.y, this._enemies);
+        enemy.update(this._hero, this._enemies);
 
         // Tire d'un ennemi
         enemy.shoot(this._shots, imageLoader);

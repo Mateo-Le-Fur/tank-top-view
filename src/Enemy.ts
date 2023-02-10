@@ -3,6 +3,7 @@ import Shots from './Shots';
 import { getRandomInt } from './utils/getRandomInt';
 import ImageLoader from './ImageLoader';
 import GameMap from './Map';
+import Hero from './Hero';
 
 class Enemy extends Sprite {
   private _speed: number;
@@ -22,7 +23,7 @@ class Enemy extends Sprite {
     this._life = 100;
   }
 
-  static spawn(map: GameMap, imageLoader: ImageLoader, ennemies: Enemy[]) {
+  static spawn(map: GameMap, imageLoader: ImageLoader, ennemies: Enemy[]): void {
     for (let i = 0; i < 50; i += 1) {
       const x = getRandomInt(map.mapWidth / 3, map.mapWidth * 3);
       const y = getRandomInt(0, map.mapHeight * 2);
@@ -30,21 +31,19 @@ class Enemy extends Sprite {
     }
   }
 
-  update(heroX: number, heroY: number, ennemies: Enemy[]): void {
+  update(hero: Hero, ennemies: Enemy[]): void {
     // On vérifie si l'ennemi doit être supprimé
     const enemyIndex = ennemies.findIndex((enemy) => enemy._life <= 0);
     if (enemyIndex !== -1) {
       ennemies.splice(enemyIndex, 1);
     }
     // calcul de l'angle entre le héros et l'ennemi
-    this._angle = Math.atan2(heroY - this._y, heroX - this._x);
+    this._angle = Math.atan2(hero.y - this._y, hero.x - this._x);
     const forceX = Math.cos(this._angle) * this._speed;
     const forceY = Math.sin(this._angle) * this._speed;
 
-    /* L'ennemi se dirige vers le héros si la distance qui les sépare est supérieur à 400
-     * sinon il s'arrête et tire */
-    const distanceBetweenHeroAndEnemy = 400;
-    if (Math.abs(this._x - heroX) > distanceBetweenHeroAndEnemy) {
+    /* L'ennemi se dirige vers le héros si l'ennemi entre dans sa zone */
+    if (!this.enterInHeroArea(hero)) {
       this._x += forceX;
       this._y += forceY;
       this._isMoving = true;
@@ -53,7 +52,11 @@ class Enemy extends Sprite {
     }
   }
 
-  decreaseLifePoint(shoot: Shots) {
+  enterInHeroArea(hero: Hero): boolean {
+    return Math.sqrt((this._x - hero.x) * (this._x - hero.x) + (this._y - hero.y) * (this._y - hero.y)) < hero.detectionRadius;
+  }
+
+  decreaseLifePoint(shoot: Shots): void {
     if (!shoot.isHitted) {
       this._life -= shoot.damage;
       shoot.isHitted = true;
@@ -97,7 +100,6 @@ class Enemy extends Sprite {
     ctx.strokeRect(this._x, this._y - 15, this._w, this._h / 3);
     ctx.fillStyle = '#32CD32';
     ctx.fillRect(this._x, this._y - 15, this._w * ratio, this._h / 3);
-
     ctx.translate(this._x + this._w / 2, this._y + this._h / 2);
     ctx.rotate(this._angle);
     ctx.translate(-this._x - this._w / 2, -this._y - this._h / 2);
