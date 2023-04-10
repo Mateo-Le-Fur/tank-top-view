@@ -1,4 +1,16 @@
 export interface SpriteInterface {
-    image: HTMLImageElement;
-    type: string;
+  id: number;
+  x: number;
+  y: number;
+  lastPosX: number;
+  lastPosY: number;
+  h: number;
+  w: number;
+  angle: number;
+  speed: number;
+  lastSpeed: number;
+  image: HTMLImageElement;
+  isHitted: boolean;
+  damage: number;
+  life: number;
 }

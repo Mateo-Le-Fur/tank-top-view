@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -11,9 +13,80 @@ body {
   overflow: hidden;
 }
 
-
 #app {
   position: relative;
   min-height: 100vh;
   background-color: dimgray;
+}
+
+#app canvas {
+  position: absolute;
+  z-index: 0;
+}
+
+h1 {
+  margin: 6rem 0;
+  color: white;
+  font-weight: 700;
+  font-size: 6.5rem;
+}
+
+.menu {
+  position: relative;
+  background-image: url('./images/background.png');
+  background-color: rgba(255, 255, 255, 0.144);
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: visible;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.407);
+  position: absolute;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.menu ul {
+  text-align: center;
+  list-style: none;
+  color: white;
+  font-size: 4rem;
+}
+
+.menu ul li {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.form-settings {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.form-settings label {
+  font-size: 2.5rem;
+}
+
+.form-settings input {
+  all: unset;
+  padding-left: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 3rem;
+}
+
+.form-settings button {
+  all: unset;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding-left: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 3rem;
+  text-align: center;
 }

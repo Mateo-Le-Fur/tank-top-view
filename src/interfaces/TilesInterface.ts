@@ -1,7 +1,19 @@
-import { Textures } from './TextureInterface';
+export interface TilesInterface {
+  x: number;
 
-export interface TilesInterface extends Textures {
+  y: number;
 
-    image: HTMLImageElement
+  id: number;
 
+  image: HTMLImageElement | null;
+
+  collide: boolean;
+
+  muddy: boolean;
+
+  probability: number;
+
+  w: number;
+
+  h: number;
 }

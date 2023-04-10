@@ -1,0 +1,609 @@
+{
+	"TextureAtlas": {
+		"SubTexture": [
+			{
+				"_name": "barrelBeige.png",
+				"_x": "842",
+				"_y": "108",
+				"_width": "16",
+				"_height": "50"
+			},
+			{
+				"_name": "barrelBeige_outline.png",
+				"_x": "840",
+				"_y": "368",
+				"_width": "24",
+				"_height": "58"
+			},
+			{
+				"_name": "barrelBlack.png",
+				"_x": "840",
+				"_y": "426",
+				"_width": "16",
+				"_height": "50"
+			},
+			{
+				"_name": "barrelBlack_outline.png",
+				"_x": "818",
+				"_y": "168",
+				"_width": "24",
+				"_height": "58"
+			},
+			{
+				"_name": "barrelBlue.png",
+				"_x": "850",
+				"_y": "58",
+				"_width": "16",
+				"_height": "50"
+			},
+			{
+				"_name": "barrelBlue_outline.png",
+				"_x": "827",
+				"_y": "226",
+				"_width": "24",
+				"_height": "58"
+			},
+			{
+				"_name": "barrelGreen.png",
+				"_x": "834",
+				"_y": "58",
+				"_width": "16",
+				"_height": "50"
+			},
+			{
+				"_name": "barrelGreen_outline.png",
+				"_x": "818",
+				"_y": "110",
+				"_width": "24",
+				"_height": "58"
+			},
+			{
+				"_name": "barrelGreen_side.png",
+				"_x": "746",
+				"_y": "48",
+				"_width": "44",
+				"_height": "62"
+			},
+			{
+				"_name": "barrelGreen_side_damaged.png",
+				"_x": "790",
+				"_y": "48",
+				"_width": "44",
+				"_height": "62"
+			},
+			{
+				"_name": "barrelGreen_up.png",
+				"_x": "746",
+				"_y": "0",
+				"_width": "48",
+				"_height": "48"
+			},
+			{
+				"_name": "barrelGrey_sde_rust.png",
+				"_x": "783",
+				"_y": "244",
+				"_width": "44",
+				"_height": "62"
+			},
+			{
+				"_name": "barrelGrey_side.png",
+				"_x": "796",
+				"_y": "410",
+				"_width": "44",
+				"_height": "62"
+			},
+			{
+				"_name": "barrelGrey_up.png",
+				"_x": "735",
+				"_y": "252",
+				"_width": "48",
+				"_height": "48"
+			},
+			{
+				"_name": "barrelRed.png",
+				"_x": "842",
+				"_y": "158",
+				"_width": "16",
+				"_height": "50"
+			},
+			{
+				"_name": "barrelRed_outline.png",
+				"_x": "834",
+				"_y": "0",
+				"_width": "24",
+				"_height": "58"
+			},
+			{
+				"_name": "barrelRed_side.png",
+				"_x": "805",
+				"_y": "306",
+				"_width": "44",
+				"_height": "62"
+			},
+			{
+				"_name": "barrelRed_up.png",
+				"_x": "730",
+				"_y": "454",
+				"_width": "48",
+				"_height": "48"
+			},
+			{
+				"_name": "bulletBeige.png",
+				"_x": "48",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletBeigeSilver.png",
+				"_x": "188",
+				"_y": "345",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletBeigeSilver_outline.png",
+				"_x": "671",
+				"_y": "140",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletBeige_outline.png",
+				"_x": "128",
+				"_y": "345",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletBlue.png",
+				"_x": "0",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletBlueSilver.png",
+				"_x": "12",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletBlueSilver_outline.png",
+				"_x": "148",
+				"_y": "345",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletBlue_outline.png",
+				"_x": "755",
+				"_y": "300",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletGreen.png",
+				"_x": "24",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletGreenSilver.png",
+				"_x": "36",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletGreenSilver_outline.png",
+				"_x": "691",
+				"_y": "140",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletGreen_outline.png",
+				"_x": "168",
+				"_y": "345",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletRed.png",
+				"_x": "120",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletRedSilver.png",
+				"_x": "60",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletRedSilver_outline.png",
+				"_x": "711",
+				"_y": "140",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletRed_outline.png",
+				"_x": "735",
+				"_y": "300",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletSilver.png",
+				"_x": "72",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletSilverSilver.png",
+				"_x": "84",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletSilverSilver_outline.png",
+				"_x": "778",
+				"_y": "472",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletSilver_outline.png",
+				"_x": "775",
+				"_y": "306",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletYellow.png",
+				"_x": "96",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletYellowSilver.png",
+				"_x": "108",
+				"_y": "481",
+				"_width": "12",
+				"_height": "26"
+			},
+			{
+				"_name": "bulletYellowSilver_outline.png",
+				"_x": "794",
+				"_y": "0",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "bulletYellow_outline.png",
+				"_x": "814",
+				"_y": "0",
+				"_width": "20",
+				"_height": "34"
+			},
+			{
+				"_name": "dirt.png",
+				"_x": "0",
+				"_y": "0",
+				"_width": "128",
+				"_height": "128"
+			},
+			{
+				"_name": "grass.png",
+				"_x": "0",
+				"_y": "128",
+				"_width": "128",
+				"_height": "128"
+			},
+			{
+				"_name": "oil.png",
+				"_x": "200",
+				"_y": "408",
+				"_width": "96",
+				"_height": "96"
+			},
+			{
+				"_name": "sand.png",
+				"_x": "0",
+				"_y": "256",
+				"_width": "128",
+				"_height": "128"
+			},
+			{
+				"_name": "sandbagBeige.png",
+				"_x": "128",
+				"_y": "301",
+				"_width": "66",
+				"_height": "44"
+			},
+			{
+				"_name": "sandbagBrown.png",
+				"_x": "730",
+				"_y": "410",
+				"_width": "66",
+				"_height": "44"
+			},
+			{
+				"_name": "smokeGrey0.png",
+				"_x": "416",
+				"_y": "188",
+				"_width": "87",
+				"_height": "87"
+			},
+			{
+				"_name": "smokeGrey1.png",
+				"_x": "296",
+				"_y": "408",
+				"_width": "92",
+				"_height": "89"
+			},
+			{
+				"_name": "smokeGrey2.png",
+				"_x": "478",
+				"_y": "384",
+				"_width": "90",
+				"_height": "99"
+			},
+			{
+				"_name": "smokeGrey3.png",
+				"_x": "651",
+				"_y": "353",
+				"_width": "79",
+				"_height": "79"
+			},
+			{
+				"_name": "smokeGrey4.png",
+				"_x": "128",
+				"_y": "97",
+				"_width": "100",
+				"_height": "97"
+			},
+			{
+				"_name": "smokeGrey5.png",
+				"_x": "128",
+				"_y": "194",
+				"_width": "98",
+				"_height": "107"
+			},
+			{
+				"_name": "smokeOrange0.png",
+				"_x": "486",
+				"_y": "275",
+				"_width": "87",
+				"_height": "87"
+			},
+			{
+				"_name": "smokeOrange1.png",
+				"_x": "324",
+				"_y": "196",
+				"_width": "92",
+				"_height": "89"
+			},
+			{
+				"_name": "smokeOrange2.png",
+				"_x": "388",
+				"_y": "408",
+				"_width": "90",
+				"_height": "99"
+			},
+			{
+				"_name": "smokeOrange3.png",
+				"_x": "656",
+				"_y": "261",
+				"_width": "79",
+				"_height": "79"
+			},
+			{
+				"_name": "smokeOrange4.png",
+				"_x": "0",
+				"_y": "384",
+				"_width": "100",
+				"_height": "97"
+			},
+			{
+				"_name": "smokeOrange5.png",
+				"_x": "228",
+				"_y": "0",
+				"_width": "98",
+				"_height": "107"
+			},
+			{
+				"_name": "smokeWhite0.png",
+				"_x": "324",
+				"_y": "107",
+				"_width": "92",
+				"_height": "89"
+			},
+			{
+				"_name": "smokeWhite1.png",
+				"_x": "396",
+				"_y": "285",
+				"_width": "90",
+				"_height": "99"
+			},
+			{
+				"_name": "smokeWhite2.png",
+				"_x": "590",
+				"_y": "182",
+				"_width": "79",
+				"_height": "79"
+			},
+			{
+				"_name": "smokeWhite3.png",
+				"_x": "128",
+				"_y": "0",
+				"_width": "100",
+				"_height": "97"
+			},
+			{
+				"_name": "smokeWhite4.png",
+				"_x": "226",
+				"_y": "194",
+				"_width": "98",
+				"_height": "107"
+			},
+			{
+				"_name": "smokeWhite5.png",
+				"_x": "418",
+				"_y": "0",
+				"_width": "87",
+				"_height": "87"
+			},
+			{
+				"_name": "smokeYellow0.png",
+				"_x": "228",
+				"_y": "107",
+				"_width": "87",
+				"_height": "87"
+			},
+			{
+				"_name": "smokeYellow1.png",
+				"_x": "326",
+				"_y": "0",
+				"_width": "92",
+				"_height": "89"
+			},
+			{
+				"_name": "smokeYellow2.png",
+				"_x": "416",
+				"_y": "89",
+				"_width": "90",
+				"_height": "99"
+			},
+			{
+				"_name": "smokeYellow3.png",
+				"_x": "651",
+				"_y": "432",
+				"_width": "79",
+				"_height": "79"
+			},
+			{
+				"_name": "smokeYellow4.png",
+				"_x": "100",
+				"_y": "384",
+				"_width": "100",
+				"_height": "97"
+			},
+			{
+				"_name": "smokeYellow5.png",
+				"_x": "298",
+				"_y": "301",
+				"_width": "98",
+				"_height": "107"
+			},
+			{
+				"_name": "tankBeige.png",
+				"_x": "730",
+				"_y": "340",
+				"_width": "75",
+				"_height": "70"
+			},
+			{
+				"_name": "tankBeige_outline.png",
+				"_x": "505",
+				"_y": "0",
+				"_width": "83",
+				"_height": "78"
+			},
+			{
+				"_name": "tankBlack.png",
+				"_x": "671",
+				"_y": "0",
+				"_width": "75",
+				"_height": "70"
+			},
+			{
+				"_name": "tankBlack_outline.png",
+				"_x": "568",
+				"_y": "362",
+				"_width": "83",
+				"_height": "78"
+			},
+			{
+				"_name": "tankBlue.png",
+				"_x": "671",
+				"_y": "70",
+				"_width": "75",
+				"_height": "70"
+			},
+			{
+				"_name": "tankBlue_outline.png",
+				"_x": "506",
+				"_y": "78",
+				"_width": "83",
+				"_height": "78"
+			},
+			{
+				"_name": "tankGreen.png",
+				"_x": "669",
+				"_y": "182",
+				"_width": "75",
+				"_height": "70"
+			},
+			{
+				"_name": "tankGreen_outline.png",
+				"_x": "573",
+				"_y": "275",
+				"_width": "83",
+				"_height": "78"
+			},
+			{
+				"_name": "tankRed.png",
+				"_x": "568",
+				"_y": "440",
+				"_width": "75",
+				"_height": "70"
+			},
+			{
+				"_name": "tankRed_outline.png",
+				"_x": "588",
+				"_y": "0",
+				"_width": "83",
+				"_height": "78"
+			},
+			{
+				"_name": "tracksLarge.png",
+				"_x": "589",
+				"_y": "78",
+				"_width": "82",
+				"_height": "104"
+			},
+			{
+				"_name": "tracksSmall.png",
+				"_x": "744",
+				"_y": "140",
+				"_width": "74",
+				"_height": "104"
+			},
+			{
+				"_name": "treeLarge.png",
+				"_x": "200",
+				"_y": "301",
+				"_width": "98",
+				"_height": "107"
+			},
+			{
+				"_name": "treeSmall.png",
+				"_x": "503",
+				"_y": "188",
+				"_width": "87",
+				"_height": "87"
+			}
+		],
+		"_imagePath": "sheet.png"
+	}
+}
