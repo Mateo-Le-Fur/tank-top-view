@@ -4,13 +4,39 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Vite + TS</title>
-    <script type="module" src="./assets/index-777fa172.js"></script>
-    <link type="text/css" href="./assets/index-8e711b4a.css">
+    <script type="module" crossorigin src="./assets/index-45138a9c.js"></script>
+    <link rel="stylesheet" href="./assets/index-3fff999a.css" />
   </head>
   <body>
-    <div id="app"></div>
-    
+    <div id="app">
+      <canvas class="canvas"></canvas>
+      <div class="menu">
+        <h1>TANK TOP VIEW 2D</h1>
+
+        <nav>
+          <ul class="items">
+            <li class="play">Jouer</li>
+            <li class="control">Commandes</li>
+            <li class="settings">Paramètres</li>
+          </ul>
+          <form
+            name="settings"
+            class="form-settings"
+            style="display: none !important"
+            action=""
+          >
+            <label for="width">Largeur de la carte</label>
+            <input type="number" name="width" value="50" />
+            <label for="height">Hauteur de la carte</label>
+            <input type="number" name="height" value="50" />
+            <label for="enemies">Nombre d'ennemies</label>
+            <input type="number" name="enemies" value="25" />
+            <button type="button">Sauvegarder</button>
+          </form>
+        </nav>
+      </div>
+    </div>
   </body>
 </html>
